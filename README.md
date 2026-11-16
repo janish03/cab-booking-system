@@ -57,42 +57,33 @@ cab_booking/
 
 ## Installation and Setup
 
-**1. Clone the repository**
+**1. Navigate to the project folder**
 
-```bash
-git clone YOUR_REPOSITORY_URL
-```
-
-**2. Navigate to the project folder**
-
-```bash
 cd cab_booking
-```
 
-**3. Install Django**
 
-```bash
+**2. Install Django**
+
 pip install django
-```
 
-**4. Apply migrations**
 
-```bash
+**3. Apply migrations**
+
 python manage.py makemigrations
 python manage.py migrate
-```
 
-**5. Run the development server**
 
-```bash
+**4. Run the development server**
+
+
 python manage.py runserver
-```
 
-**6. Open in browser**
 
-```text
+**5. Open in browser**
+
+
 http://127.0.0.1:8000/
-```
+
 
 ## Database
 
@@ -111,4 +102,4 @@ This project uses SQLite to store user profiles, ride details, customer informat
 
 ## Author
 
-**Janish**
+Janish
