@@ -1,0 +1,10 @@
+<h2>available rides </h2>
+
+{% for ride in rides %}
+<p>
+    Ride {{ride.id}}
+    pickup {{ride.pickup_location}}
+    drop {{ride.drop_location}}
+</p>
+
+{% endfor %}

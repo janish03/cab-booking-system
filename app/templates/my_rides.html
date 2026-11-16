@@ -1,0 +1,10 @@
+<h2> my_rides</h2>
+{% for ride in rides%}
+
+ride number:{{ ride.id }}
+{{ ride.pickup_location }}
+{{ ride.drop_location }}
+{{ ride.fare }}
+{{ ride.status }}
+
+{% endfor %}
